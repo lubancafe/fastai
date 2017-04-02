@@ -1,7 +1,8 @@
 # Learn FAST.ai by trying, failing, digging
 
-## The Core codes of lesson1 (Dogs & Cats) are 
+# Lesson1 Dogs & Cats image classification
 
+##### The Core codes of lesson1 are 
 
 ```python
 vgg = Vgg16() 
@@ -33,14 +34,16 @@ https://www.youtube.com/watch?v=qnoLMkosHuE&pbjreload=10&app=desktop
 https://classroom.udacity.com/courses/ud120/lessons/2301748537/concepts/24575785420923
 
 ### [recommended] Understand Deep Learning better with tensorflow tutorials
+#### tensorflow get started
 https://www.tensorflow.org/get_started/get_started#tensorflow_core_tutorial
 - Simple code with simple data. Learn by crafting the codes with very simple data set;
 - Learning with reports, we can visualize the learning process with tensorboard.
 As a result of learning y=Wx+b, W: [-0.9999969] b: [ 0.99999082] loss: 5.69997e-11
 
+#### MNIST with tensorflow for beginners
 https://www.tensorflow.org/get_started/mnist/beginners
 MNIST problem solved with softmax regression. The explanation pictures are very helpful for beginners. For example, below is softmax regression scalargraph,
-![Image of softmax regression](https://www.tensorflow.org/images/softmax-regression-scalargraph.png>)
+![Image of softmax-regression](https://www.tensorflow.org/images/softmax-regression-scalargraph.png)
 
 My understanding on labels, weights and bias (y = Wx + b):
 Training Labels (mnist.train.labels) is [55000, 10] matrix of floats ;
