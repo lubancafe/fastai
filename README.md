@@ -45,19 +45,33 @@ https://www.tensorflow.org/get_started/mnist/beginners
 MNIST problem solved with softmax regression. The explanation pictures are very helpful for beginners. For example, below is softmax regression scalargraph,
 ![Image of softmax-regression](https://www.tensorflow.org/images/softmax-regression-scalargraph.png)
 
-My understanding on labels, weights and bias (y = Wx + b):
+#### My understanding on labels, weights and bias (y = Wx + b):
 Training Labels (mnist.train.labels) is [55000, 10] matrix of floats ;
 
 Weights is [784, 10] matrix of floats (given a certain pixel and known number, what's the weight); while bias is [10] array of floats;
 
 The training process is a process of calculating *unknown Weights and bias* by given *known lables on images*; pseudo equation as below,
-```
-<b>train.y</b> (labels [55000, 10] matrix of float) = <b>train.x</b> (image pixel intensities [55000, 784] matrix of float) * <b>W</b> (weights [784, 10] matrix of float) + b (bias [10] array of float)
+```javascript
+// train.y is known labels on images, a [55000, 10] matrix of float;
+// train.x is known image pixel intensities, a [55000, 784] matrix of float;
+// W is unknown weights, a [784, 10] matrix of float;
+// b is unknown bias, a [10] array of float;
+
+train.y = train.x * W (?) + b (?);
+
+// after training, we will get W and b;
 ```
 
 The classification is a process of calculating *unknown label* by given *trained weights and bias upon one image*. pseudo equation as below, 
 ```
-test.y (lable [10] array of float) = test.x (image pixel intensities [1, 784] matrix of float) * W (known [784,10] matrix of float) + b (known [10] array of float).
+// test.y is unknown label, a [10] array of float;
+// test.x is known image pixel intensities, a [1, 784] matrix of float, or simply a [784] array of float;
+// W is trained weights, a [784,10] matrix of float;
+// b is trained bias, a [10] array of float;
+
+test.y (?) = test.x * W + b 
+
+// after calculating, we will get a [10] array of probabilities on classification (which number)
 ```
 
 Here with visualization of trained weights by numbers [0,1,..,9]
