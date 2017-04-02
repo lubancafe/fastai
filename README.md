@@ -1,4 +1,5 @@
 # Learn FAST.ai by trying, failing, digging
+I am a developer learning fast.ai with no good math. 
 
 # Lesson1 Dogs & Cats image classification
 
@@ -19,11 +20,11 @@ The running result: loss: 0.1229 - acc: 0.9672 - val_loss: 0.0581 - val_acc: 0.9
 
 ## After Lesson1@fastai, dive into basics of deep learning
 To solve such complex problem (image classification), you may feel above codes too simple just like me. 
-This is the pain of top-down learning approach, the "whole-picture" is a black magic box. As we ask what's behind this black-box, we are asking a 'top-down' question in problem-solving way.
+This is the pain of top-down learning approach, what behind "whole-picture" is a black magic box. As we ask what's behind this black-box, we are asking a 'top-down' question in problem-solving way.
 
 Questions I ask myself:
-- How computer learns the weights and bias (W, b) of each pixel on an image set from training data? [solved](https://github.com/lubancafe/fastai/blob/master/README.md#my-understanding-on-labels-weights-and-bias-y--wx--b)
-- And how the classification is calculated on valid data? [solved](https://github.com/lubancafe/fastai/blob/master/README.md#my-understanding-on-labels-weights-and-bias-y--wx--b)
+- How computer learns the weights and bias (W, b) of each pixel on an image dataset from training data? [solved](https://github.com/lubancafe/fastai/blob/master/README.md#my-understanding-on-labels-weights-and-bias-y--wx--b)
+- And how the classification is calculated on test data for predication? [solved](https://github.com/lubancafe/fastai/blob/master/README.md#my-understanding-on-labels-weights-and-bias-y--wx--b)
 - Why softmax regression for image classification?
 
 ### Understand Deep Learning much easier - if you can read excel you can understand the learning process
