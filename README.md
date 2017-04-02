@@ -63,6 +63,10 @@ train.y = train.x * W (?) + b (?);
 // after training, we will get W and b;
 ```
 
+Here with visualization of trained weights by numbers [0,1,..,9],
+![Image of weights](https://www.tensorflow.org/images/softmax-weights.png)
+
+
 The classification is a process of calculating *unknown label* by given *trained weights and bias upon one image*. pseudo equation as below, 
 ```
 // test.y is unknown label, a [10] array of float;
@@ -72,11 +76,8 @@ The classification is a process of calculating *unknown label* by given *trained
 
 test.y (?) = test.x * W + b 
 
-// after calculating, we will get a [10] array of probabilities on classification (which number)
+// after calculating, we will get a [10] array of probabilities on classification (and most likely which number in [0..9])
 ```
-
-Here with visualization of trained weights by numbers [0,1,..,9]
-![Image of weights](https://www.tensorflow.org/images/softmax-weights.png)
 
 ## Digg into VGG_16.py, questions come out
 
