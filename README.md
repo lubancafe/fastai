@@ -40,7 +40,7 @@ As a result of learning y=Wx+b, W: [-0.9999969] b: [ 0.99999082] loss: 5.69997e-
 
 https://www.tensorflow.org/get_started/mnist/beginners
 MNIST problem solved with softmax regression. The explanation pictures are very helpful for beginners. For example, below is softmax regression scalargraph,
-![Image of softmax regression]https://www.tensorflow.org/images/softmax-regression-scalargraph.png>
+![Image of softmax regression](https://www.tensorflow.org/images/softmax-regression-scalargraph.png>)
 
 My understanding on labels, weights and bias (y = Wx + b):
 Training Labels (mnist.train.labels) is [55000, 10] matrix of floats ;
@@ -58,7 +58,7 @@ test.y (lable [10] array of float) = test.x (image pixel intensities [1, 784] ma
 ```
 
 Here with visualization of trained weights by numbers [0,1,..,9]
-![Image of weights]https://www.tensorflow.org/images/softmax-weights.png
+![Image of weights](https://www.tensorflow.org/images/softmax-weights.png)
 
 ## Digg into VGG_16.py, questions come out
 
