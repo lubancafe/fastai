@@ -1,5 +1,5 @@
 # Learn FAST.ai by trying, failing, digging
-I am a developer learning fast.ai with no good math. 
+I am a developer learning fast.ai with no good math together with other fans @CoderBunker, Shanghai
 
 # Lesson1 Dogs & Cats image classification
 
@@ -20,12 +20,12 @@ The running result: loss: 0.1229 - acc: 0.9672 - val_loss: 0.0581 - val_acc: 0.9
 
 ## After Lesson1@fastai, dive into basics of deep learning
 To solve such complex problem (image classification), you may feel above codes too simple just like me. 
-This is the pain of top-down learning approach, what behind "whole-picture" is a black magic box. As we ask what's behind this black-box, we are asking a 'top-down' question in problem-solving way.
+This is the pain of top-down learning approach, what behind "whole-picture" is a black magic box. As we ask what's behind this black-box, we are asking 'top-down' questions in problem-solving way. Then, tackle these questions in a 'bottom-up' way would make our learning practical and effective.
 
-Questions I ask myself:
+### Questions I ask:
 - How computer learns the weights and bias (W, b) of each pixel on an image dataset from training data? [solved](https://github.com/lubancafe/fastai/blob/master/README.md#my-understanding-on-labels-weights-and-bias-y--wx--b)
 - And how the classification is calculated on test data for predication? [solved](https://github.com/lubancafe/fastai/blob/master/README.md#my-understanding-on-labels-weights-and-bias-y--wx--b)
-- Why softmax regression for image classification?
+- Why softmax regression for image classification? []
 
 ### Understand Deep Learning much easier - if you can read excel you can understand the learning process
 Jeremy uses excel sheet to simulate deep learning on linear regression (y=Wx+b). The W and b are simple real value (2,30), y=2x + 30.
@@ -46,7 +46,7 @@ https://www.tensorflow.org/get_started/mnist/beginners
 MNIST problem solved with softmax regression. The explanation pictures are very helpful for beginners. For example, below is softmax regression scalargraph,
 ![Image of softmax-regression](https://www.tensorflow.org/images/softmax-regression-scalargraph.png)
 
-#### My understanding on labels, weights and bias (y = Wx + b):
+#### My understanding on labels, weights and biases (y = Wx + b):
 Training Labels (mnist.train.labels) is [55000, 10] matrix of floats ;
 
 Weights is [784, 10] matrix of floats (given a certain pixel and known number, what's the weight); while bias is [10] array of floats;
@@ -79,9 +79,14 @@ test.y (?) = test.x * W + b
 // after calculating, we will get a [10] array of probabilities on classification (and most likely which number in [0..9])
 ```
 
-## Digg into VGG_16.py, questions come out
+### [Homework Assignment] Kaggle Submission
 
-```
+
+### [Questions on the way] 
+
+Digg into VGG_16.py, questions come out
+
+```python
 def VGG_16();
 
 ...
@@ -92,14 +97,14 @@ model.add(Dense(1000, activation='softmax'))
 
 ```
 
-### What is Activation Function in Deep Learning?
+#### What is Activation Function in Deep Learning?
 https://www.thoughtly.co/blog/deep-learning-lesson-2/
 
 #### What is softmax?
 <p><b>softmax</b> is a generalization of logistic function that “squashes”(maps) a K-dimensional vector z of arbitrary real values to a K-dimensional vector σ(z) of real values in the range (0, 1) that add up to 1.
 e.g. [2.1, 3.4, 81, 13.5] => [0.021, 0.034, 0.81, 0.135]</p>
 
-##### Why softmax?
+#### Why softmax?
 https://www.quora.com/Artificial-Neural-Networks-Why-do-we-use-softmax-function-for-output-layer
 
 #### What is relu?
@@ -107,3 +112,20 @@ https://www.quora.com/What-is-the-role-of-rectified-linear-ReLU-activation-funct
 
 #### What is Backpropagation?
 http://colah.github.io/posts/2015-08-Backprop/
+
+
+# Lesson2 CNNs
+
+
+Questions:
+- 
+- What if I rotate my handwrite number 3 for a MNIST CNN to recognize? The CNN predicts wrong number as 7.
+
+
+#### What is Neural Network and CNN?
+A Quick Introduction to Neural Networks, https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/
+An Intuitive Explanation of Convolutional Neural Networks, https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/
+
+### Interesting articles on AI
+https://www.quora.com/What-is-the-next-step-beyond-deep-learning-in-AI
+[generalization](https://qph.ec.quoracdn.net/main-qimg-ea4a6d2fab6f4fb36fc2661bcfb8520d)
