@@ -1,5 +1,5 @@
 # Learn FAST.ai by trying, failing, digging
-I am a developer learning fast.ai with no good math together with other fans @CoderBunker, Shanghai
+I am a developer learning fast.ai with no good math together with other coders @CoderBunker, Shanghai
 
 # Lesson1 Dogs & Cats image classification
 
