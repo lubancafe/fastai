@@ -80,6 +80,14 @@ test.y (?) = test.x * W + b
 ```
 
 ### [Homework Assignment] Kaggle Submission
+The kaggle competition assignment, http://wiki.fast.ai/index.php/Lesson_1#Overview_of_homework_assignment
+
+Stuck at 
+12.	write a script that takes the predict() data of the new Dogs vs. Cats data and writes the data to a new csv file in the format of the sample_submission.csv file that was downloaded with the Dogs vs. Cats
+
+The source code w. explanation is not explicitly mentioned in lesson1, it's here,
+https://github.com/fastai/courses/blob/master/deeplearning1/nbs/dogs_cats_redux.ipynb
+
 
 
 ### [Questions on the way] 
