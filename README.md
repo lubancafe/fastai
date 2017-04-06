@@ -121,6 +121,8 @@ https://www.quora.com/What-is-the-role-of-rectified-linear-ReLU-activation-funct
 #### What is Backpropagation?
 http://colah.github.io/posts/2015-08-Backprop/
 
+#### How to debug in Jupyter Notebook?
+http://stackoverflow.com/questions/35613249/using-ipdb-to-debug-python-code-in-one-cell-jupyter-or-ipython
 
 # Lesson2 CNNs
 
