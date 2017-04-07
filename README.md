@@ -88,7 +88,8 @@ Stuck at
 The source code w. explanation is not explicitly mentioned in lesson1, it's here,
 https://github.com/fastai/courses/blob/master/deeplearning1/nbs/dogs_cats_redux.ipynb
 
-
+#### [Questions]
+- The test folder contains 12,498 images, not 12500 images?
 
 ### [Questions on the way] 
 
@@ -128,7 +129,7 @@ http://stackoverflow.com/questions/35613249/using-ipdb-to-debug-python-code-in-o
 
 
 Questions:
-- 
+- Where is Optim_Tutorial.ipynb shown in video lesson?
 - What if I rotate my handwrite number 3 for a MNIST CNN to recognize? The CNN predicts wrong number as 7.
 
 
