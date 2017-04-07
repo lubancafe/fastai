@@ -89,7 +89,7 @@ The source code w. explanation is not explicitly mentioned in lesson1, it's here
 https://github.com/fastai/courses/blob/master/deeplearning1/nbs/dogs_cats_redux.ipynb
 
 #### [Questions]
-- The test folder contains 12,498 images, not 12500 images?
+- The test folder contains 12,498 images, not 12500 images? [solved] most likely miss files while download, download again and check with '$ls | wc -l' after download
 
 ### [Questions on the way] 
 
