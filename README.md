@@ -132,6 +132,7 @@ http://stackoverflow.com/questions/35613249/using-ipdb-to-debug-python-code-in-o
 
 Questions:
 - Where is Optim_Tutorial.ipynb shown in video lesson?
+- What does model.DropOut mean?
 - What if I rotate my handwrite number 3 for a MNIST CNN to recognize? The CNN predicts wrong number as 7.
 
 
