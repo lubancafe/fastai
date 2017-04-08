@@ -89,7 +89,7 @@ The source code w. explanation is not explicitly mentioned in lesson1, it's here
 https://github.com/fastai/courses/blob/master/deeplearning1/nbs/dogs_cats_redux.ipynb
 
 #### [Questions]
-- How can I know whether jupyter kernel is running while sometimes it doesnot response (any command available)?
+- How can I know whether jupyter kernel is running while sometimes it doesnot response (any command available)? [solved] Use 'htop' command, check if the jupyter process is still running
 - How to have jeremy's theme on jupyter notebook (fold/unfold on sections)?
 - The test folder contains 12,498 images, not 12500 images? [solved] most likely miss files while download, download again and check with '$ls | wc -l' after download
 
